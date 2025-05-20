@@ -164,13 +164,8 @@ a {
   padding: 60px 20px;
 }
 .archive .container {
-  max-width: 700px;
+  max-width: 1000px;
   margin: 0 auto;
-}
-.archive h2 {
-  font-size: 28px;
-  margin-bottom: 30px;
-  text-align: center;
 }
 .archive__list {
   display: flex;
@@ -183,8 +178,8 @@ a {
   align-items: flex-start;
 }
 .archive__item img {
-  width: 100px;
-  height: auto;
+  width: 200px;
+  height: 100px;
   border-radius: 5px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -194,16 +189,17 @@ a {
 }
 .archive__item .archive__content h3 {
   margin: 0 0 5px;
-  font-size: 18px;
+  font-size: 22px;
+  color: #45525B;
 }
 .archive__item .archive__content p {
   margin: 0 0 5px;
-  font-size: 14px;
-  color: #444;
+  font-size: 16px;
+  color: #45525B;
 }
 .archive__item .archive__content .archive__date {
-  font-size: 12px;
-  color: #888;
+  font-size: 14px;
+  color: #45525B;
 }
 .archive__link {
   display: block;
@@ -217,4 +213,59 @@ a {
 }
 .archive__link:hover {
   border-color: #222;
+}
+
+.footer {
+  padding: 4rem 1rem;
+  background-color: #f9f9f9;
+  font-size: 0.875rem;
+  color: #222;
+}
+.footer .footer__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.footer .footer__branding {
+  max-width: 400px;
+}
+.footer .footer__branding .logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #222;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer .footer__branding .footer__description {
+  line-height: 1.5;
+}
+.footer .footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+.footer .footer__links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer .footer__links ul li {
+  margin-bottom: 0.5rem;
+}
+.footer .footer__links ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer .footer__links ul li a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
